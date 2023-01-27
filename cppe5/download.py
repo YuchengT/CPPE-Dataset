@@ -14,7 +14,7 @@ def download_data(dir_name="data") -> None:
     if not check_dir(dir_name):
         os.mkdir(dir_name)
     os.chdir(dir_name)
-    os.chmod(dir_name,stat.S_IRWXO)
+    #os.chmod(dir_name,stat.S_IRWXO)
     gdown.download(
         "https://drive.google.com/uc?id=1MGnaAfbckUmigGUvihz7uiHGC6rBIbvr", quiet=False
     )
