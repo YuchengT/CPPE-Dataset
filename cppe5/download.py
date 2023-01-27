@@ -17,4 +17,4 @@ def download_data(dir_name="data") -> None:
         "https://drive.google.com/uc?id=1MGnaAfbckUmigGUvihz7uiHGC6rBIbvr", quiet=False
     )
     os.system("tar -xf dataset.tar.gz")
-    os.remove("dataset.tar.gz")
+    #os.remove("dataset.tar.gz")
